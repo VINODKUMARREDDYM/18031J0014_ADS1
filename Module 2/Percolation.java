@@ -1,117 +1,100 @@
-import java.util.Scanner;
+
 
 public class Percolation {
-	 private boolean[][] sites;
-	 //private boolean[][] grid;
-	 //private gridSize;
-	 int row,col,N;
-	 private WeightedQuickUnion WQU; 
-	 Scanner sc;
-	 
-	 	public Percolation(int n)
-		{
-			N=n;
-			sites=new boolean[N][N];
-			WQU =new WeightedQuickUnion(N*N);
-			for(int i = 0; i < N; i++)
-	        {
-	            for(int j = 0; j < N; j++)
-	            {
-	                sites[i][j] = false;
-	            }
-	        }
-			
-		}
-		public void open(int row,int col)
-		{
-			 	int i = row-1;
-		        int j = col-1;
-		        sites[i][j] = true;
-		        if (i-1 >=0  && isOpen(row - 1, col))
-		        {
-		        	WQU.union(to2D(row,col),to2D(row-1,col));
-		        }
-		        if (i+1 < sites.length  && isOpen(row + 1, col))         
-		        {
-		        	WQU.union(to2D(row,col),to2D(row+1,col));
-		        }
-		        if (j-1 >= 0 && isOpen(row, col-1))     //up
-		        {
-		        	WQU.union(to2D(row,col),to2D(row,col-1));
-		        }
-		        if (j+1 < sites.length&& isOpen(row, col+1))     //down
-		        {
-		        	WQU.union(to2D(row,col),to2D(row,col+1));
-		        }
-		}
-		public boolean isOpen(int row,int col)
-		{
-			 this.row=row-1;
-			 this.col=col-1;
-			 for(int i=0;i<N;i++)
-			 {
-				 for(int j=0;j<N;j++)
-				 {
-					 if(sites[row][col]==true)
-						 return true;
-				 }
-				// System.out.println(" ");
-			 }
-			 return false;
-		}
-		public boolean isFull(int row,int col)
-		{
-			if(isOpen(row,col))
-	        {
-	            for(int k = 0; k < sites.length; k++)
-	            {
+	private boolean[][] sites;
+	private int grid;
+	private int beginNode;
+	private int endNode;
 
-	               if(WQU.find(to2D(row,col),k)) return true;
-	            }
-	        }
-	        return false;
+	private WeightedQuickUnionUF QU;
+	private WeightedQuickUnionUF Backwash;
+
+	// private QuickFindUF QU;
+	public Percolation(int N) {
+		N = N + 1;
+		QU = new WeightedQuickUnionUF(N * N + 1); // +2 for the top and bottom node
+		Backwash = new WeightedQuickUnionUF(N * N + 2);
+		// QU = new QuickFindUF(N*N+2);
+		sites = new boolean[N][N]; // create N-by-N grid, with all sites blocked
+		grid = N - 1;
+		beginNode = 0;
+		endNode = N * N + 1;
+
+	}
+
+	public void open(int i, int j) {
+		// open site (row i, column j) if it is not already
+		// check if out of bound:
+
+		checkException(i, j);
+		if (!sites[j][i]) {
+			sites[j][i] = true;
 		}
-		/*public int numberOfopenSites()
-		{
-			
-		}*/
-		public boolean percolates()
-		{
-			if (sites.length == 1)
-	        {
-	            if (isOpen(1,1))
-	            {
-	                return true;
-	            }
-	            return false;
-	        }
-	        if(sites.length == 2)
-	        {
-	            if (WQU.find(0,3)) return true;
-	            if (WQU.find(1,2)) return true;
-	            if (WQU.find(0,2)) return true;
-	            if (WQU.find(1,3)) return true;
-	            return false;
-	        }
+		int index = indexCalc(j, i);
+		// Connect the site with surrounding nodes
+		// left:
+		if (j != 1) {
+			if (sites[j - 1][i]) {
+				QU.union(index, index - 1);
+				Backwash.union(index, index - 1);
+			}
+		}
+		// right:
+		if (j != grid) {
+			if (sites[j + 1][i]) {
+				QU.union(index, index + 1);
+				Backwash.union(index, index + 1);
+			}
+		}
+		// top:
+		if (i != 1) {
+			if (sites[j][i - 1]) {
+				QU.union(index, j + grid * (i - 1));
+				Backwash.union(index, j + grid * (i - 1));
+			}
+		} else {
+			QU.union(beginNode, index); // connect with top node which we will just have as N^2
+			Backwash.union(beginNode, index);
+		}
+		// bottom:
 
+		if (i != grid) {
+			if (sites[j][i + 1]) {
+				QU.union(index, j + grid * (i + 1));
+				Backwash.union(index, j + grid * (i + 1));
+			}
+		} else {
+			Backwash.union(index, endNode);
+		}
 
-	        for (int i = (sites.length* (sites.length - 1))-1; i < (sites.length *sites.length); i++)
-	        {
-	           // System.out.println((gridSize * (gridSize - 1))-1);
-	            //System.out.println(gridSize * gridSize-1);
-	            for (int i2 = 0; i2 < sites.length; i2++)
-	            {
-	                //System.out.println(i);
-	                //System.out.println(i2);
-	                //System.out.print(wqf.connected(i, i2));
-	                if (WQU.find(i, i2)) return true;
+	}
 
-	            }
-	        }
-	        return false;
-	    }
-	    private int to2D(int i, int j)
-	    {
-	        return (i-1)*sites.length+(j-1);
-	    }
+	public boolean isOpen(int i, int j) {
+
+		checkException(i, j);
+		// is site (row i, column j) open?
+		return sites[j][i];
+	}
+
+	public boolean isFull(int i, int j) {
+
+		checkException(i, j);
+		// is site (row i, column j) full?
+		return (QU.connected(indexCalc(j, i), beginNode));
+	}
+
+	public boolean percolates() {
+		return Backwash.connected(beginNode, endNode);
+	}
+
+	private int indexCalc(int i, int j) {
+		return i + grid * j;
+	}
+
+	private void checkException(int i, int j) {
+		if (i <= 0 || i > grid || j <= 0 || j > grid) {
+			throw new IndexOutOfBoundsException("row index i out of bounds");
+		}
+	}
+
 }
