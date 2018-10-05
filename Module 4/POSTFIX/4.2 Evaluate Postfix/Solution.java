@@ -59,8 +59,8 @@ class Solution {
     public static void main(String[] args)  
     { 
     	Scanner scan=new Scanner(System.in);
-        String exp = scan.next(); 
-        //String exp="1 2 3 4 5 * + 6 * * +";
+       // String exp = scan.next(); 
+        String exp="1 2 3 4 5 * + 6 * * +";
         System.out.println(evaluatePostfix(exp)); 
     } 
 } 
