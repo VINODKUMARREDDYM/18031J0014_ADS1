@@ -54,7 +54,7 @@ class Llist
 			System.out.print(tnode.data);
 			tnode=tnode.Next;
 		}
-		//System.out.println("\n");
+		System.out.println("\n");
 	}
 	
 	}
