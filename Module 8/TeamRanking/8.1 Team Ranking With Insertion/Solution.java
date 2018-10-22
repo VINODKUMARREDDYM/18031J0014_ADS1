@@ -54,12 +54,12 @@ public static void main(String args[])
 				if(team.Losses==team2.Losses)
 				{
 					
-					 if(team.Draws<team2.Draws)
+					 if(team.Draws>team2.Draws)
 						return true;
 					else 
 						return false;
 				}
-				else if(team.Losses>team2.Losses)
+				else if(team.Losses<team2.Losses)
 				return true;
 				else 
 					return false;
