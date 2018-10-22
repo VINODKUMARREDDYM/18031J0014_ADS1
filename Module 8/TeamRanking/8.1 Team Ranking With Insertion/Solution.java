@@ -38,7 +38,7 @@ public static void main(String args[])
 		
 				
 	}
-	for(int i=0;i<t.size()-2;i++)
+	for(int i=0;i<t.size()-1;i++)
 	{
 		Team T2=t.get(i);
 		System.out.print(T2.TeamName+",");
@@ -54,7 +54,7 @@ public static void main(String args[])
 				if(team.Losses==team2.Losses)
 				{
 					
-					 if(team2.Draws<team2.Draws)
+					 if(team.Draws<team2.Draws)
 						return true;
 					else 
 						return false;
