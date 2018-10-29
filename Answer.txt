@@ -1,0 +1,269 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+true
+false
+true
+false
+
+Your Output: 
+true
+false
+true
+false
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+false
+false
+false
+false
+false
+false
+
+Your Output: 
+false
+false
+false
+false
+false
+false
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+
+Your Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+true
+false
+false
+
+Your Output: 
+true
+false
+false
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+true
+true
+false
+
+Your Output: 
+true
+true
+false
+
+----------------------------------------
+Result: 5/5 testcases passed.
+Starting audit...
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:5:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:5:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:5:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:6:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:19:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:19:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:20:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:20:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:21:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:21:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:22:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:22:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:23:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:24:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:25:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:26:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:28:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:28:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:29:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:29:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:29:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:30:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:30:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:31:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:31:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:33:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:34:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:34:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:35: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:35:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:35:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:36: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:36:44: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:36:46: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:36:46: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:36:48: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:41: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:42:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:44:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:45:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:46:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:48:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:48:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:49:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:49:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:49:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:50:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:50:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:50:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:51: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:51:35: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:51:44: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:51:46: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:36: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:45: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:46: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:47: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:54:56: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:55:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:56:45: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:56:46: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:58:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:58:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:59:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:59:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:60: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:61:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:62:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:62:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:63:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:63:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:64: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:64:44: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:64:46: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:64:46: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:64:48: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:70: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:70:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:70:29: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:70:31: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:72: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:74: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:75: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77:24: Parameter arr should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77:34: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77:38: Parameter n should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:77:45: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:78: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:78:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:79: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:80: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:80:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:80:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:81: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:81:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:81:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:83: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:84: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:7: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:9: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:10: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:11: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:13: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:43: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:85:44: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:88: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:89: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:89: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:89:48: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:89:49: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:92: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:94: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:94:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:95: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:96: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:97: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:100: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:101: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:102: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:103: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:104: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107:25: Parameter arr should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107:35: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107:39: Parameter n should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:107:46: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:108: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:108:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:109: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:110: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:110:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:110:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:111: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:111:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:111:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:113: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:114: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:7: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:9: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:10: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:11: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:13: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:19: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:115:20: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:118: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:119: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:119: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:119:24: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:119:25: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:122: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:123: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:124: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:124:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:125: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:126: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:127: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:129: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:130: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:131: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:132: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:133: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 12\13.1 isMinHeap\Solution.java:134: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 180 errors.
+
+
+[master a47ddeb] "check_style_score -> 5 of 5 passed. style score: 0/1 "
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Module 12/13.1 isMinHeap/Answer.txt
+
+
