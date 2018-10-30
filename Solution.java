@@ -1,138 +1,149 @@
 import java.util.Scanner;
 
 public class Solution {
-
 	public static void main(String args[])
 	{
-		/*String s="N,J,F,E,B,A";
-		String a[]=s.split(",");
-		int n=a.length;
-		boolean h=true;
-		for (int i = n / 2 - 1; i >= 0; i--) 
+		Scanner sc=new Scanner(System.in);
+		String s=sc.nextLine();
+		int[] a=new int[Integer.parseInt(s)];
+		int i=0,j=1;
+		while(sc.hasNext())
 		{
-			h=true;
-			 h=heapify(a, n, i); 
-			 if(h==false)
-				 break;
+			a[i]=Integer.parseInt(sc.nextLine());
+			i++;
+			//.out.println(i);
+			if(i==a.length)break;
 		}
-		System.out.println(h);*/
-		Scanner scan=new Scanner(System.in);
-		String s=scan.nextLine();
-		int j=Integer.parseInt(scan.nextLine());
-		int f=0;
-		if(s.equals("String"))
+		for(int k=0;k<a.length;k++)
 		{
-			while(scan.hasNext())
+			//System.out.println("      1         ");
+			int c[]=new int[j];
+			int d[]=new int[j];
+			for(int l=0;l<j;l++)
 			{
-				
-				String sc=scan.nextLine();
-				String a[]=sc.split(",");
-				int n=a.length;
-				boolean h=true;
-				for (int i = n / 2 - 1; i >= 0; i--) 
-				{
-					h=true;
-					 h=heapify(a, n, i); 
-					 if(h==false)
-						 break;
-				}
-				System.out.println(h);
+				c[l]=a[l];
+				d[l]=a[l];
 			}
-			
+			HeapSort H=new HeapSort();
+			H.sort(c, d);
+			//System.out.println(c);
+			j++;
 		}
-		else
+	}
+}
+class HeapSort 
+{ 
+    public void sort(int arr[],int ar[]) 
+    { 
+ //   	System.out.println(" 2 2");
+ //   	display(arr);
+        int n = arr.length; 
+//        System.out.println(arr);
+//        System.out.println("********8"+n);
+        // Build heap (rearrange array) 
+        for (int i = n / 2 - 1; i >= 0; i--) 
+            heapify(arr, n, i);
+        
+       // display(arr);
+        for (int i = n / 2 - 1; i >= 0; i--) 
+            heapify1(ar, n, i);
+        
+        //display(ar);
+        // One by one extract an element from heap 
+        int prevTemp =0;
+        int prevTemp1 =0;
+        for (int i=n-1; i>=0; i--) 
+        { 
+            // Move current root to end 
+            int temp = arr[0]; 
+            arr[0] = arr[i]; 
+            arr[i] = temp;
+            // call max heapify on the reduced heap 
+            heapify(arr, i, 0); 
+            
+            //display(arr);
+            
+            int temp1 = ar[0]; 
+            ar[0] = ar[i]; 
+            ar[i] = temp1;
+            heapify1(ar, i, 0);
+           // System.out.println(temp1+" , "+temp);
+            if(temp1==temp)
+            	{
+            	float f=(float)temp;
+            	System.out.println(f);
+            	break;
+            	}
+            if(temp==prevTemp1&&prevTemp==temp1)
+            {
+            	float f=(float)(temp+temp1)/2;
+            	System.out.println(f);
+            	break;
+            }
+            prevTemp = temp;
+            prevTemp1 = temp1;
+        } 
+    } 
+  
+    void display(int a[]){
+    	for(int k=0;k<a.length;k++)
 		{
-			while(scan.hasNext())
-			{
-				f++;
-				String sc=scan.nextLine();
-				String a[]=sc.split(",");
-				Double b[]=new Double[a.length];
-				if(b.length==0)
-					System.out.println("false");
-				else {
-				for(int i=0;i<a.length;i++)
-				{
-					b[i]=Double.parseDouble(a[i]);
-				}
-				int n=a.length;
-				boolean h=true;
-				for (int i = n / 2 - 1; i >= 0; i--) 
-				{
-					h=true;
-					 h=heapify1(b, n, i); 
-					 if(h==false)
-						 break;
-				}
-				System.out.println(h);
-				}
-			}
-			if(j!=f)
-				System.out.println("false");
-			
+    		System.out.print(a[k]+" ");
 		}
-		} 
-	
-	
-static boolean heapify(String arr[], int n, int i) 
-{ 
-    int largest = i; // Initialize largest as root 
-    int l = 2*i + 1; // left = 2*i + 1 
-    int r = 2*i + 2; // right = 2*i + 2 
-
-    // If left child is larger than root 
-   // if (l < n && arr[l] < arr[largest]) 
-    if(l<n&&arr[l].compareTo(arr[largest])<0)
-        return false;
-
-    // If right child is larger than largest so far 
-    if (r < n && arr[r].compareTo(arr[largest])<0) 
-        return false;
-
-    // If largest is not root 
-    if (largest != i) 
+    	System.out.println();
+    	
+    }
+    // To heapify a subtree rooted with node i which is 
+    // an index in arr[]. n is size of heap 
+    void heapify(int arr[], int n, int i) 
     { 
-        String swap = arr[i]; 
-        arr[i] = arr[largest]; 
-        arr[largest] = swap; 
-
-        // Recursively heapify the affected sub-tree 
-        heapify(arr, n, largest); 
-        
-       
-        
-    } 
-    return true;
-}
-static boolean heapify1(Double arr[], int n, int i) 
-{ 
-    int largest = i; // Initialize largest as root 
-    int l = 2*i + 1; // left = 2*i + 1 
-    int r = 2*i + 2; // right = 2*i + 2 
-
-    // If left child is larger than root 
-   // if (l < n && arr[l] < arr[largest]) 
-    if(l<n&&arr[l]<arr[largest])
-        return false;
-
-    // If right child is larger than largest so far 
-    if (r < n && arr[r]<arr[largest]) 
-        return false;
-
-    // If largest is not root 
-    if (largest != i) 
+        int largest = i; // Initialize largest as root 
+        int l = 2*i + 1; // left = 2*i + 1 
+        int r = 2*i + 2; // right = 2*i + 2 
+  
+        // If left child is larger than root 
+        if (l < n && arr[l] > arr[largest]) 
+            largest = l; 
+  
+        // If right child is larger than largest so far 
+        if (r < n && arr[r] > arr[largest]) 
+            largest = r; 
+  
+        // If largest is not root 
+        if (largest != i) 
+        { 
+            int swap = arr[i]; 
+            arr[i] = arr[largest]; 
+            arr[largest] = swap; 
+  
+            // Recursively heapify the affected sub-tree 
+            heapify(arr, n, largest); 
+        } 
+    }
+    void heapify1(int arr[], int n, int i) 
     { 
-        Double swap = arr[i]; 
-        arr[i] = arr[largest]; 
-        arr[largest] = swap; 
+        int largest = i; // Initialize largest as root 
+        int l = 2*i + 1; // left = 2*i + 1 
+        int r = 2*i + 2; // right = 2*i + 2 
+  
+        // If left child is larger than root 
+        if (l < n && arr[l] < arr[largest]) 
+            largest = l; 
+  
+        // If right child is larger than largest so far 
+        if (r < n && arr[r] < arr[largest]) 
+            largest = r; 
+  
+        // If largest is not root 
+        if (largest != i) 
+        { 
+            int swap = arr[i]; 
+            arr[i] = arr[largest]; 
+            arr[largest] = swap; 
+  
+            // Recursively heapify the affected sub-tree 
+            heapify1(arr, n, largest); 
+        } 
+	}
 
-        // Recursively heapify the affected sub-tree 
-        heapify1(arr, n, largest); 
-        
-       
-        
-    } 
-    return true;
 }
-}
-
