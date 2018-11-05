@@ -1,0 +1,225 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1729
+
+Your Output: 
+1729
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+4673088
+
+Your Output: 
+4673088
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+86488136
+
+Your Output: 
+86488136
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+87539319
+
+Your Output: 
+87539319
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+143604279
+
+Your Output: 
+143604279
+
+----------------------------------------
+Result: 5/5 testcases passed.
+Starting audit...
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:1:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:9: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:10:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:11:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:12:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:14:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:14:18: Parameter initCapacity should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:18:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:21:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:21:18: Parameter initCapacity should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:21:36: Parameter comparator should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:21:52: 'comparator' hides a field. [HiddenField]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:26:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:26:18: Parameter comparator should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:26:34: 'comparator' hides a field. [HiddenField]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:29:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:29:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:29:18: Parameter keys should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:32: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:33:17: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:33:18: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:34: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:34:23: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:34:24: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:45: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:45: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:48:25: Parameter capacity should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:56:24: Parameter x should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:58: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:66:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:67: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:67: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:71: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:71:13: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:71:14: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:72: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:72:48: '4' is a magic number. [MagicNumber]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:76:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:76:23: Parameter k should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:77:34: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:77:35: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:78:22: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:78:23: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:79:18: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:79:19: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:83:23: Parameter k should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:84:17: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:84:18: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:85:22: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:85:23: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:86: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:86:38: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:86:39: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:87: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:92:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:92:29: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:92:36: Parameter j should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:95:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:101:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:101:23: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:101:30: Parameter j should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:108:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:113:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:113:31: Parameter k should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:114: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:115:21: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:115:22: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:116:22: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:116:23: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:117: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:118: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:121:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:125: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:126:10: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:127:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:127:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:128: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:129: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:130: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:134: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:134:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:135: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:135:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:137:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:138: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:142: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:144: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:144:54: '>' is followed by an illegal character. [GenericWhitespace]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:144:54: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:145:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:145:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:146:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:147:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:148: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:25: Parameter i should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:29: 'i' hides a field. [HiddenField]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:31: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:31: Parameter j should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:149:35: 'j' hides a field. [HiddenField]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:150:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:27: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:28: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:29: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:30: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:31: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:32: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:33: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:34: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:35: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:151:36: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:152:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:152:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:153:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:153:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:155:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'compareTo' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'compareTo' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:156:30: Parameter that should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:158: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:158:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:158:28: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:158:29: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:160: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:160:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:160:28: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:160:29: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:164:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'getSum' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'getSum' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:164:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:165:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:168:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:168:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:169:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:170:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:170:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:170:28: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:170:29: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:171: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:172:26: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:174:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:174:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:174:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:175:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:176:25: '900' is a magic number. [MagicNumber]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:177:19: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:177:20: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:178:14: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:179:9: '{' at column 9 should be on the previous line. [LeftCurly]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:180:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:180:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:181:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:181:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:182: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:183:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:183:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:184:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:184:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:185:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:185:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:186:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:186:18: '3' is a magic number. [MagicNumber]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 17\TaxiCabNumbers\Solution.java:186:18: '=' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 174 errors.
+
+
+[master ed5948c] "check_style_score -> 5 of 5 passed. style score: 0/1 "
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Module 17/TaxiCabNumbers/a.txt
+
+
