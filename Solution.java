@@ -15,7 +15,7 @@ class Book
 		}
 	@Override
 	public String toString() {
-		return Name+","+" "+Author+","+" "+Price;
+		return Name+", "+Author+", "+Price;
 	}
 	
 }
@@ -128,7 +128,7 @@ public class Solution {
 	void select(int k)
 	{
 	ArrayList<Book> al=new ArrayList<Book>();
-		select(root,al);
+		select(root,al,k);
 		for(int i=0;i<al.size()&&i<=k;i++)
 			if(i==k)
 				System.out.println(al.get(i));
@@ -137,36 +137,74 @@ public class Solution {
 	}
 	
 	
-	void select(Node a,ArrayList al)
+	void select(Node a,ArrayList al,int k)
 	{
+		/*if(al.size()-1==k) {
+			System.out.println(al.get(k));
+			return ;
+		}*/
 		if(a!=null)
 		{
-			select(a.left,al);
+			select(a.left,al,k);
 			al.add(a.key);
-			select(a.right,al);
+			select(a.right,al,k);
 		}
 		
 		
+	}
+	Book deleteMin()
+	{
+		root= deleteMin(root);
+		return root.key;
+	}
+	private Node deleteMin(Node x)
+	{
+		if(x.left==null)
+			return x.right;
+		x.left=deleteMin(x.left);
+		return x;
+	}
+	Book deleteMax()
+	{
+		root=deleteMax(root);
+		return root.key;
+	}
+	private Node deleteMax(Node x)
+	{
+		if(x.right==null)
+			return x.left;
+		x.right=deleteMax(x.right);
+		return x;
+	}
+	Book delete(Book key)
+	{
+		root=delete(root,key);
+		return root.key;
+	}
+	private Node delete(Node x,Book key)
+	{
+		if(x==null)
+			return null;
+		if(key.Name.compareTo(x.key.Name)<0)
+			x.left=delete(x.left,key);
+		else if(key.Name.compareTo(x.key.Name)>0)
+			x.right=delete(x.right,key);
+		else
+		{
+			if(x.right==null)
+				return x.left;
+			
+			Node t=x;
+			x=min(t.right);
+			x.right=deleteMin(t.right);
+			x.left=t.left;
+		}
+		return x;
 	}
 	public static void main(String args[])
 	{
 		Scanner scan = new Scanner(System.in);
 		Solution or=new Solution();
-		/*Book book=new Book("Algorithms","Bob Sedgewick",6000.0);
-		Book book1=new Book("Python","eric",5000);
-		Book book2=new Book("Hello","Ajay",200.0);
-		Book book3=new Book("IT","Viswas",400.0);
-		or.put(book, 1);
-		or.put(book1, 2);
-		System.out.println(or.get(book));
-		or.put(book2, 5);
-		or.put(book3,2);
-		System.out.println(or.max());
-		System.out.println(or.get(book3));
-		System.out.println(or.min());
-		or.select(1);
-		System.out.println(or.floor(book));
-		System.out.println(or.ceiling(book1));*/
 		
 		
 				
@@ -197,7 +235,13 @@ public class Solution {
 			System.out.println(or.ceiling(book111));
 						break;
 			case "select":or.select(Integer.parseInt(array[1]));
-						break;
+								break;
+			case "deleteMin":or.deleteMin();//System.out.println("deletemin:"+or.deleteMin());
+							break;
+			case "deleteMax":or.deleteMax();//System.out.println("deleteMax"+or.deleteMax());
+							break;
+			case "delete":Book book1111 = new Book(array[1],array[2],Double.parseDouble(array[3]));
+							or.delete(book1111);//System.out.println("delete"+or.delete(book1111));
 			}
 		}
 	}
