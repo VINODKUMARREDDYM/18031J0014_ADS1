@@ -1,2 +1,86 @@
-File not found.
-Pass a valid filename with extension as argument.
+########## Testcase 0: Passed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+Yes
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+Yes
+
+----------------------------------------
+########## Testcase 5: Passed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+Yes
+
+----------------------------------------
+Result: 6/6 testcases passed.
+Starting audit...
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:7: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:8:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:8:24: Variable 'magazineMap' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:9:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:9:24: Variable 'noteMap' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:11:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:11:19: Parameter magazine should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:11:36: Parameter note should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:14:38: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:15:34: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:19:8: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:25:29: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:28:8: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:34:25: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:38:3: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'solve' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'solve' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:38:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:39:8: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:44: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:50:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:50:27: Parameter args should be final. [FinalParameters]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:62: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:62:7: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\ADS1\18031J0014_ADS1\Module 22\22.1 Ransom Note\Solution.java:64: 'else' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 27 errors.
+
+
+[master c950659] "check_style_score -> 6 of 6 passed. style score: 0/1 "
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Module 22/22.1 Ransom Note/Ans.txt
+
+
